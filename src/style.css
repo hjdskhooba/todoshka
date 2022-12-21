@@ -1,0 +1,51 @@
+#root{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.todolishka{
+    width: 1230px;
+    text-align: center;
+    font-family: 'Reenie Beanie';
+}
+input{
+    padding: 10px 13px;
+    padding-right: 80px;
+    border-radius: 10px;
+    border: 1.4px solid;
+}
+
+a{
+    cursor: pointer;
+    color: white;
+    border-radius: 10px;
+    background-color: #3BFF5A;
+    padding: 8px 15px;
+    font-family: 'Mr Dafoe';
+}
+ul{
+    transform: translateX(440px);    
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+li{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3px;
+    padding: 0 20px;
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+    list-style: none;
+    font-family: sans-serif;
+    width: 269px;
+    transform: translateX(-19px);
+    height: 43px;
+    background: #D1E6FF;
+    font-size: 11px;
+}
+.a2{
+    color: red;
+    background: none;
+}
